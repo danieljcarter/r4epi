@@ -83,7 +83,13 @@ We are going to use the gapminder data in the dslabs package to explore a phenom
 > Step 4: Using mutate(), case_when(), and %in%, create a new variable called group with nine levels: "Western Europe, North America, Aus/NZ", "Eastern Europe", "Western & Central Asia", "Northern Africa", "Sub-Saharan Africa", "East Asia", "Southern Asia","Latin America", and "Pacific Islands". (Hint: summary() first!). Some code is supplied to ease your typing.
 
 ```{r}
-
+hic <- c("Australia and New Zealand", "Western Europe", "Northern Europe", "Northern America", "Southern Europe")
+ee <- c("Eastern Europe")
+wca <- c("Central Asia", "Western Asia")
+ssa <- c("Eastern Africa", "Middle Africa", "Southern Africa", "Western Africa")
+ea <- c("Eastern Asia", "South-Eastern Asia")
+la <- c("Caribbean", "Central America", "South America")
+pa <- c("Melanesia", "Micronesia", "Polynesia")
 ```
 
 > Step 5: Convert the group variable to a factor and cross tabulate it with continent to check the reassignation worked (hint: tabpct())
@@ -138,7 +144,6 @@ $$ Surv = 1 - (mort/1000) $$
 > Step 10: For every 10x more dollars in Sub-Saharan Africa, what % more infants will survive? What about in Western Europe?
 
 ```{r}
-#--- Western Europe
 
 ```
 
